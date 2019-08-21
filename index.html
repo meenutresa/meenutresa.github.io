@@ -86,19 +86,23 @@
     <!-- Carousel
     ================================================== -->
 
-    <div id="myCarousel" >
-      <div id="particles-js" class="carousel-inner">
+    <div id="myCarousel" class="carousel slide" data-ride="">
+      <div id="car1" class="item active">
+      <div id="particles-js" class="carousel-inner img-responsive"></div>
           <div class="container">
             <div class="carousel-caption">
               <h3>Hi. I am Meenu.</h3>
               <h2>Welcome to my space in the Web.</h2>
-              <p>I am a technology enthusiast interested in Software Development and Data Analytics. In my current role at Citi, I work on robust Java-based applications built on Spring Framework with Service Oriented Architecture. Before joining Citi, I earned my MSc Degree from Trinity College Dublin in Computer Science, specializing in Data Science. At Trinity, I had the privilege of completing my research in the fields of Machine Learning and Statistical Analysis.
-Before moving to Ireland, I was working with SAP Labs India for 2 years as a Software Developer in Finance module of SAP Business ByDesign(ByD) cloud ERP software. I also worked as a ASP.NET developer at Unisys, India for 10 months before joining SAP.</p>
+              <p>It's good to have you here. Here, you can learn about my story.</p>
               <br>
           </div>
         </div>
       </div>
-      </div>
+    </div>
+
+
+
+
 
 
 
@@ -106,6 +110,24 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
     ================================================== -->
 
     <div class="container marketing demo">
+
+      <div id="" class="">
+          <div class="">
+
+              <p class="lead text-center">
+                I am a technology enthusiast interested in Software Development and Data Analytics. In my current role at Citi,
+                I work on robust and scalable Java-based applications built on Spring Framework with Service Oriented Architecture. </p>
+<p class="lead text-center">
+                I graduated with Distinction from Trinity College Dublin with a MSc Degree in Computer Science,
+                specializing in Data Science. </p>
+                <p class="lead text-center">
+                Before moving to Ireland from India to pursue my studies, I was working with SAP Labs India for more than 2 years as a Software Developer.
+                I worked on the Finance module of SAP Business ByDesign(ByD) cloud ERP software.
+                I also worked as a ASP.NET developer at Unisys, India for 10 months before joining SAP.</p>
+
+
+    </div>
+    </div>
 
       <!-- START THE SKILLSET SECTION-->
 
@@ -258,27 +280,29 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
       </div>
       <div class="container mt-5 mb-5">
 	<div class="row">
-		<div class="timeline-center col-md-9 offset-md-3">
+		<div class="timeline-center col-md-12 offset-md-1">
 			<ul class="timeline">
 				<li>
           <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-md-8">
         <div>
 					<h3>Citi Europe PLC, Dublin</h3>
-          <p>Post: Technology Analyst</p>
+          <h4>Technology Analyst</h4>
 					<p class="float-right">Sep 3, 2018 – Present</p>
         </div>
 					<p>Developed a Web application for Citi’s payment hub, for tracking and analyzing the payments going through it, thus streamlining the work of the testing and support teams.
-          </br>o APIs used - Apache Kafka APIs, IBM MQ APIs and Spring Data MongoDB APIs.
-          </br>o Used Service Oriented Architecture (SOA) – frontend in Angular and Spring boot for backend.
-          </br>o Used Git (Bitbucket) for version control, and JIRA.
-          </br>o Led the KT sessions with a geographically dispersed team, for enabling the uptake of this project.
+            <ul style="list-style-type:square;">
+              <li>APIs used - Apache Kafka APIs, IBM MQ APIs and Spring Data MongoDB APIs.</li>
+              <li>Used Service Oriented Architecture (SOA) – frontend in Angular and Spring boot for backend.</li>
+              <li>Used Git (Bitbucket) for version control, and JIRA.</li>
+              <li>Led the KT sessions with a geographically dispersed team, for enabling the uptake of this project.</li>
+            </ul>
           </br>Mentored a new intern for 6 months. Also, mentored a team in Citi’s Upstart program, which made it to the finals in Belfast. Upstart is a student entrepreneurship program, to solve problems of social importance. </p>
         </div>
         <div>
-      <div class="col-md-6" style="padding-bottom:1%;">
-          <img src="images/citi.png" class="featurette-image img-responsive" style="width: 200px; height: 200px;">
+      <div class="col-md-3" style="padding-bottom:1%;">
+          <img src="images/citi.png" class="featurette-image img-responsive">
       </div>
       </div>
         </div>
@@ -286,10 +310,10 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
 				<li>
           <div class="row">
 
-          <div class="col-md-6">
+          <div class="col-md-8">
           <div>
           <h3>SAP Labs, India</h3>
-          <p>Post: Developer Associate</p>
+          <h4>Developer Associate</h4>
 					<p >Jul 20, 2015 – Aug 31, 2017</p>
           </div>
 					<p>Technical expert of Business configuration in Finance module of Business ByDesign (ByD) cloud ERP software.
@@ -297,8 +321,8 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
             </br>Led the development of ByD tax returns modules according to yearly German e-Bilanz taxonomy releases. </p>
           </div>
           <div>
-        <div class="col-md-6" style="padding-bottom:1%;">
-            <img src="images/sap.png" class="featurette-image img-responsive" style="width: 200px; height: 200px;">
+        <div class="col-md-3" style="padding-bottom:1%;">
+            <img src="images/sap.png" class="featurette-image img-responsive" >
         </div>
         </div>
           </div>
@@ -307,18 +331,18 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
 				<li>
           <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-md-8">
         <div>
           <h3>Unisys, India</h3>
-          <p>Post: Consultant 4</p>
+          <h4>Consultant 4</h4>
 					<p class="float-right">Sep 1, 2014 – Jul 13, 2015</p>
         </div>
 					<p>Developed the backend of Landelijk Intake Portal, for Netherland’s Mijnaansluiting.nl foundation.
             </br>Used ASP.NET, C# and MS SQL server with a HTML, CSS, JS stack on SharePoint platform for the portal. </p>
           </div>
           <div>
-        <div class="col-md-6" style="padding-bottom:1%;">
-            <img src="images/unisys.png" class="featurette-image img-responsive" style="width: 200px; height: 200px;">
+        <div class="col-md-3" style="padding-bottom:1%;">
+            <img src="images/unisys.png" class="featurette-image img-responsive" >
         </div>
         </div>
           </div>
@@ -338,17 +362,18 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
 
       <div class="featurette">
         <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-8">
         <div class="page-header">
           <h2 class="featurette-heading">Research Experience</h2>
           </div>
           <h3>MSc Dissertation on using Bayesian
             nonparametric mixture models for clustering of ‘Dublin Bikes’ bike stations.
-            Please click the icon on the right to download the Abstract.<h3>
+            Please click the PDF icon to download the Abstract.<h3>
 
 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
+          <br><br><br><br><br><br><br><br><br>
           <div>
             <a target="_blank" href="MeenuVincent_Abstract.pdf"><img class="re-image" src="icons/pdf.png" alt="" /></a>
             </div>
@@ -363,21 +388,21 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
       <!-- START THE EDUCATION SECTION-->
       <div class="snapper"></div>
       <div class="featurette">
-        <div class="col-md-7">
-        <div class="page-header">
+        <div class="col-md-8">
+        <div id="ed-head" class="page-header">
           <h2 class="featurette-heading">Education</h2>
 
         </div>
         </div>
-      </div>
+
       <div class="container mt-5 mb-5">
 	<div class="row">
-		<div class="timeline-center col-md-9 offset-md-3">
+		<div class="timeline-center col-md-12 offset-md-3">
 			<ul class="timeline">
 				<li>
           <div class="row">
 
-        <div class="col-md-6">
+        <div class="col-md-8">
         <div>
 					<h3>Trinity College, Dublin</h3>
           <p>MSc Computer Science – Data Science</p>
@@ -388,8 +413,8 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
           </p>
         </div>
         <div>
-      <div class="col-md-6" style="padding-bottom:1%;">
-          <img src="images/tcd.png" class="featurette-image img-responsive" style="width: 200px; height: 200px;">
+      <div class="col-md-4" style="padding-bottom:1%;">
+          <img src="images/tcd.png" class="featurette-image img-responsive" >
       </div>
       </div>
         </div>
@@ -397,7 +422,7 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
 				<li>
           <div class="row">
 
-          <div class="col-md-6">
+          <div class="col-md-8">
           <div>
           <h3>Government Model Engineering College, Cochin (CUSAT), India</h3>
           <p>Bachelor of Technology – Computer Science and Engineering</p>
@@ -408,8 +433,8 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
             </p>
           </div>
           <div>
-        <div class="col-md-6" style="padding-bottom:1%;">
-            <img src="images/mec.png" class="featurette-image img-responsive" style="width: 200px; height: 200px;">
+        <div class="col-md-4" style="padding-bottom:1%;">
+            <img src="images/mec.png" class="featurette-image img-responsive" >
         </div>
         </div>
           </div>
@@ -418,6 +443,7 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
 			</ul>
 		</div>
 	</div>
+</div>
 </div>
 <!-- END THE EDUCATION SECTION-->
 
@@ -432,10 +458,11 @@ Before moving to Ireland, I was working with SAP Labs India for 2 years as a Sof
 
 
       <div class="featurette">
-        <div class="col-md-7">
+        <div id="co-head" class="col-md-7">
           <h2 style="color: #ffffff">.</h2>
           <h2 class="featurette-heading">Get in touch.<span class="text-muted"></span></h2>
-          <h3>You can reach out to me at <a target="_blank" href="mailto:meenuvincent1992@gmail.com">meenuvincent1992@gmail.com</a><br><span class="text-muted">...or, connect with me through the following Networks.</span></h3>
+          <h3>You can contact me at <a target="_blank" href="mailto:meenuvincent1992@gmail.com">meenuvincent1992@gmail.com</a><br>
+            <span class="text-muted">Feel free to connect with me on the following Networks.</span></h3>
         </div>
         <div class="col-md-5" style="padding-bottom:5%;">
             <img src="images/me.png" class="featurette-image img-responsive">
